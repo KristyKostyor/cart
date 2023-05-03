@@ -24445,6 +24445,7 @@ const listIPv4 = [
   "10.78.125.206",
   "10.0.32.20",
 ];
+
 function countUniqueIPs(listIPv4) {
   const uniqueIPs = new Set(listIPv4); // создаем Set из списка ip-адресов
   return uniqueIPs.size; // возвращаем количество уникальных ip-адресов
